@@ -198,3 +198,42 @@ echo str_replace("world", "Dolly", "Hello world!"); // outputs Hello Dolly!
 
 
 ```
+
+## PHP Constants
+
+- Constants are like variables except that once they are defined they cannot be changed or undefined
+- a constant is an identifier(name) for a simple value. The value cannot be changed during the script
+- a valid constant name starts with a letter or underscore(no $ sign)
+- constants are automatically global across the entire script
+
+### Syntax create a PHP constant
+define(name, value, case-insensitive)
+
+- name: Specifies the name of the constant
+- value: Specifies the value of the constant
+- case-insensitive: Specifies whether the constant name should be case-insensitive. Default is false
+
+```php
+<?php
+// case sensitive constant
+define("GREETING", "Welcome to W3Schools.com!"); 
+echo GREETING;// output 
+// case-insensitive constant
+define("GREETINGS", "Welcome to W3Schools.com!", true);
+echo greetings;
+
+function myTest1() {
+    echo GREETING;
+}
+
+function myTest2() {
+    echo greetings;
+}
+ 
+myTest1();
+myTest2();
+?>
+
+```
+
+
