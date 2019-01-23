@@ -173,3 +173,28 @@ A variable of data type NULL is a variable that has no value assigned to it.
 If a variable is created without a value, it is automatically assigned a value of NULL.
 
 Variables can also be emptied by setting the value to NULL:
+
+## PHP string functions
+```php
+<?php
+//strlen() returns the length of a string
+echo strlen("Hello world!"); // outputs 12
+
+//str_word_count() counts the number of words in a string
+echo str_word_count("Hello world!"); // outputs 2
+
+// strrev() reverses a string
+echo strrev("Hello world!"); // outputs !dlrow olleH
+
+//strpos() searchs for a specific text within a string
+// If match found, return the character position of the first match
+//if no match found, it will return FALSE
+echo strpos("Hello world!", "world"); // outputs 6
+
+//str_replace() replaces some characters with some other characters in a string
+echo str_replace("world", "Dolly", "Hello world!"); // outputs Hello Dolly!
+?>
+
+
+
+```
