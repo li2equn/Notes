@@ -278,4 +278,75 @@ switch ($favcolor) {
 - foreach - loops through a block of code for each element in an array
 
 ### while loop
+```php
+<?php 
+$x = 1; 
 
+while($x <= 5) {
+    echo "The number is: $x <br>";
+    $x++;
+} 
+?>
+
+output:
+The number is: 1 
+The number is: 2 
+The number is: 3 
+The number is: 4 
+The number is: 5 
+```
+
+### do...while loop
+
+```php
+<?php 
+$x = 6; 
+
+do {
+    echo "The number is: $x <br>";
+    $x++;
+} while ($x <= 5);
+?>
+
+output:
+The number is: 6
+
+```
+### for loop
+```php
+<?php 
+for ($x = 0; $x <= 10; $x++) {
+    echo "The number is: $x <br>";
+} 
+
+output:
+The number is: 0 
+The number is: 1 
+The number is: 2 
+The number is: 3 
+The number is: 4 
+The number is: 5 
+The number is: 6 
+The number is: 7 
+The number is: 8 
+The number is: 9 
+The number is: 10 
+?>
+```
+
+### foreach loop
+
+```php
+<?php 
+$colors = array("red", "green", "blue", "yellow"); 
+
+foreach ($colors as $value) {
+    echo "$value <br>";
+}
+output:
+red 
+green 
+blue 
+yellow 
+?>
+```
