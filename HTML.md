@@ -193,12 +193,26 @@ The text inside a ```<pre>``` element is displayed in a fixed-width font(usually
 
 - [predefined color names](https://www.w3schools.com/colors/colors_names.asp)
 
+- RGB Value: rgb(red, green, blue)
+- HEX value: #rrggbb
+- HSL Value: hsl(hue, saturation, lightness)
+   - hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, 204 is blue
+   - saturation is a percentage value, 0% means a shade of gray, 100% is the full color
+   - llightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white
+- RGBA value: rgba(red, green, blue, alpha)
+   - alpha specifies the opacity for a color
+- HSLA value: hsla(huem saturation, lightness, alpha)
 
 
+## HTML Styles -CSS
 
-
-
-
+- CSS stands for Cascading Style Sheets
+- CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+- CSS saves a lot of work. It can control the layout of multiple web pages all at once
+- CSS can be added to HTML elements in 3 ways:
+   - Inline -by using the style attribute in HTML elements
+   - Internal -by using a ```<style>``` element in the ```<head>``` section
+   - External - by using an external CSS file
 
 
 
