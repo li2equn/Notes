@@ -96,11 +96,21 @@ The source file (src), alternation text(alt), width, and height are provided as 
 - ```id``` specifies a unique id for an element
 
 
+## HTML Headings
+- Use HTML headings for headings only. Don't use headings to make text BIG or bold
+- Search engines use the headings to index the structure and content of your web pages
+- Users skim your pages by its headings. It's important to use headings to show the document structure
+- Each HTML heading has a default size. However, you can specify the size for any heading with the ```style``` attribute, using the CSS ```font-size``` property
 
+### HTML Horizontal Rules
+- The ```<hr>``` tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+- The ```<hr>``` element is used to separate content (or define a change) in an HTML page
 
-
-
-
+### The HTML ```<head>``` element
+- The ```<head>``` element is a container for metadata. 
+- HTML metadata is data about the HTML document
+- Metadata is not displayed
+- The ```<head>``` element is placed between the ```<html>``` tag and the ```<body>``` tag
 
 
 
