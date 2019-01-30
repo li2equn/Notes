@@ -85,10 +85,15 @@ The source file (src), alternation text(alt), width, and height are provided as 
 - Attributes are always specified in the start tag
 - Attributes usually come in name/value pairs like: ```html name = 'value'```
 
-
-
-
-
+- ```href``` link address is specified in the ```href``` attribute
+- ```src``` filename of the image source is specified in the ```src``` attribute
+- ```width``` and ``` height``` specifies the width and the height of the image
+- ```alt``` specifies an alternative text to be used, when an image cannot be displayed
+- ```style``` specifies the styling of an element, like color, font, size etc
+- ```lang``` declares the language of the document in the ```<html>``` tag
+- ```title```  a ```title``` attribute is added to the ```<p>``` element. The value of the title attribute will be displayed as a tooltip when you mouse over the paragraph
+- ```disabled``` specified that an input element should be disabled
+- ```id``` specifies a unique id for an element
 
 
 
