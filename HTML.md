@@ -25,7 +25,7 @@ HTML is the standard markup language for creating Web pages.
 ```
 
 ### HTML Tags
-TML tags are element names surrounded by angle brackets:
+HTML tags are element names surrounded by angle brackets:
 
 <tagname>content goes here...</tagname>
 
@@ -34,25 +34,25 @@ TML tags are element names surrounded by angle brackets:
 - The end tag is written like the start tag, but with a forward slash inserted before the tag name
 
 ### The <!DOCTYPE> Declaration
-- The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
+- The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly.
 - It must only appear once, at the top of the page (before any HTML tags).
-- The <!DOCTYPE> declaration is not case sensitive.
+- The ```<!DOCTYPE>``` declaration is not case sensitive.
 
 ### HTML Documents
-- All HTML documents must start with a document type declaration: <!DOCTYPE html>
-- The HTML document itself begins with <html> and ends with </html>
-- The visible part of the HTML document is between <body> and </body>
+- All HTML documents must start with a document type declaration: ```<!DOCTYPE html>```
+- The HTML document itself begins with ```<html>``` and ends with ```</html>```
+- The visible part of the HTML document is between ```<body>``` and ```</body>```
 
 ### HTML Headings
-- HTML headings are defined with the <h1> to <h6> tags
-- <h1> defines the most import heading. <h6> defines the least important hading
+- HTML headings are defined with the ```<h1>``` to ```<h6>``` tags
+- ```<h1>``` defines the most import heading. ```<h6>``` defines the least important hading
    
 ### HTML Paragraphs
-- HTML paragraphs are defined with the <p> tag:
+- HTML paragraphs are defined with the ```<p>``` tag:
 
 
 ### HTML Links
-<a>
+```<a>```
 
 ```html
 <a href="https://www.w3schools.com">This is a link</a>
@@ -70,12 +70,12 @@ The source file (src), alternation text(alt), width, and height are provided as 
 ```<button>```
    
 ### HTML Lists
-- HTML lists are defined with the <ul>(unordered/bullet list) or the <ol> (ordered/numbered list) tag, followed by <li> tags(list times)
+- HTML lists are defined with the ```<ul>```(unordered/bullet list) or the ```<ol>``` (ordered/numbered list) tag, followed by ```<li>``` tags(list times)
    
    
 ### Empty HTML Elements
 - HTML elements with no content are called empty elements
-- <br> is an empty element without a closing tag(<br> tag defins a line break)
+- ```<br>``` is an empty element without a closing tag(```<br>``` tag defins a line break)
 
 
 ## HTML Attributes
@@ -191,6 +191,7 @@ The text inside a ```<pre>``` element is displayed in a fixed-width font(usually
 <h1 style="border:2px solid Tomato;">Hello World</h1>
 ```
 
+- [predefined color names]<href = "https://www.w3schools.com/colors/colors_names.asp">
 
 
 
