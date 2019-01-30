@@ -113,6 +113,11 @@ The source file (src), alternation text(alt), width, and height are provided as 
 - The ```<head>``` element is placed between the ```<html>``` tag and the ```<body>``` tag
 
 
+## HTML Paragraphs
+
+```<pre>``` element defines preformatted text
+
+The text inside a ```<pre>``` element is displayed in a fixed-width font(usually Courier), and it preserves both spaces and line breaks 
 
 
 
