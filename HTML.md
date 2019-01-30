@@ -121,6 +121,13 @@ The text inside a ```<pre>``` element is displayed in a fixed-width font(usually
 
 ### HTML Style Attribute
 
+- Use the ```style``` attribute for styling HTML elements
+- Use ```background-color``` for background color
+- Use ```color``` for text colors
+- Use ```font-family``` for text sizes
+- Use ```text-align``` for text alignment
+
+
 ```html
 <tagname style = "property:value;">
 ```
@@ -128,6 +135,7 @@ The text inside a ```<pre>``` element is displayed in a fixed-width font(usually
 - The value is a CSS value
 
 
+ 
 
 
 
