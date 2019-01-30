@@ -191,7 +191,7 @@ The text inside a ```<pre>``` element is displayed in a fixed-width font(usually
 <h1 style="border:2px solid Tomato;">Hello World</h1>
 ```
 
-- [predefined color names]( "https://www.w3schools.com/colors/colors_names.asp")
+- ![predefined color names]( "https://www.w3schools.com/colors/colors_names.asp")
 
 
 
