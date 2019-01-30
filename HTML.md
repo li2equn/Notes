@@ -175,3 +175,38 @@ The text inside a ```<pre>``` element is displayed in a fixed-width font(usually
 ```html
 <!-- This is a comment -->
 ```
+
+## HTML Colors
+
+- background color
+```html
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+```
+- text color
+```html
+<h1 style="color:Tomato;">Hello World</h1>
+```
+- border color
+```html
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
