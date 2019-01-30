@@ -62,12 +62,12 @@ TML tags are element names surrounded by angle brackets:
 - Attributes are used to provide additional information about HTML elements
 
 ### HTML Images
-<img>
+```<img>```
 
 The source file (src), alternation text(alt), width, and height are provided as attributes
 
 ### HTML Buttons
-<button>
+```<button>```
    
 ### HTML Lists
 - HTML lists are defined with the <ul>(unordered/bullet list) or the <ol> (ordered/numbered list) tag, followed by <li> tags(list times)
@@ -84,3 +84,21 @@ The source file (src), alternation text(alt), width, and height are provided as 
 - Attributes provide additional information about an element
 - Attributes are always specified in the start tag
 - Attributes usually come in name/value pairs like: ```html name = 'value'```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
