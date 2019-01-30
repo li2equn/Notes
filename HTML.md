@@ -1,6 +1,6 @@
 <!-- GFM-TOC -->
 * [HTML Introduction](#HTML Introduction)
-    * [Editor](#Editor)
+    * [HTML Tags](#)
     * [请求和响应报文](#请求和响应报文)
 * [二、HTTP 方法](#二http-方法)
     * [GET](#get)
