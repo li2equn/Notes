@@ -135,8 +135,18 @@ The text inside a ```<pre>``` element is displayed in a fixed-width font(usually
 - The value is a CSS value
 
 
- 
+## HTML Formatting Elements
 
+- ```<b>``` : Bold text
+- ```<strong>``` : Important text
+- ```<i>``` Italic text
+- ```<em>``` Emphasized text
+- ```<mark>``` Marked text
+- ```<small>``` Small text
+- ```<del>``` deleted text
+- ```<ins>``` Inserted text
+- ```<sub>``` Subscript text
+- ```<sup>``` Superscript text
 
 
 
