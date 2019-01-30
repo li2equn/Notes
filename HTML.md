@@ -221,6 +221,18 @@ The text inside a ```<pre>``` element is displayed in a fixed-width font(usually
       - is used to define the style for many HTML pages
       - with an external style sheet, you can change the look of an entire website by changing one file
       - to use an external style sheet, add a link to it in the ```<head>``` section of the HTML page
+         - full URL to link to a style sheet
+         ```html
+         <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+         ```
+         - style sheet located in the html folder on the current website
+         ```html
+         <link rel="stylesheet" href="/html/styles.css">
+         ```
+         - style sheet located in the same folder as the current page
+         ```html
+         <link rel="stylesheet" href="styles.css">
+         ```
 ```html
 <!DOCTYPE html>
 <html>
@@ -280,7 +292,7 @@ color: yellow
 }
 ```
 
-
+### External References
 
 
 
