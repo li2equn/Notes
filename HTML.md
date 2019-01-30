@@ -250,12 +250,12 @@ p {
 
 ```css
 p {
-  color: red; <!--text color-->
-  font-family: courier;<!--font-->
-  font-size: 160%;<!--text size-->
-  border: 1px solid powderblue;<!--border-->
-  padding: 30px;<!--text padding(space)-->
-  margin: 50px;<!--text margin outside the border-->
+  color: red; 
+  font-family: courier;
+  font-size: 160%;
+  border: 1px solid powderblue;
+  padding: 30px;
+  margin: 50px;
 }
 ```
 
