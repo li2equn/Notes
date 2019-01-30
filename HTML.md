@@ -210,9 +210,54 @@ The text inside a ```<pre>``` element is displayed in a fixed-width font(usually
 - CSS describes how HTML elements are to be displayed on screen, paper, or in other media
 - CSS saves a lot of work. It can control the layout of multiple web pages all at once
 - CSS can be added to HTML elements in 3 ways:
-   - Inline -by using the style attribute in HTML elements
-   - Internal -by using a ```<style>``` element in the ```<head>``` section
-   - External - by using an external CSS file
+   - Inline 
+      - An inline CSS is used to apply a unique style to a single HTML element
+      - An inline CSS uses the style attribute of an HTML element
+   - Internal 
+      - by using a ```<style>``` element in the ```<head>``` section
+      - is used to define a style for a single HTML page
+   - External 
+      - by using an external CSS file
+      - is used to define the style for many HTML pages
+      - with an external style sheet, you can change the look of an entire website by changing one file
+      - to use an external style sheet, add a link to it in the ```<head>``` section of the HTML page
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+
+```css
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+```
+
+```css
+p {
+  color: red; <!--text color-->
+  font-family: courier;<!--font-->
+  font-size: 160%;<!--text size-->
+  border: 1px solid powderblue;<!--border-->
+  padding: 30px;<!--text padding(space)-->
+  margin: 50px;<!--text margin outside the border-->
+}
+```
 
 
 
