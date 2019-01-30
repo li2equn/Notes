@@ -292,9 +292,103 @@ color: yellow
 }
 ```
 
-### External References
+## HTML Links
+### Hyperlinks
+- HTML links are hyperlinks
+- You can click on a link and jump to another document
+- When you move the mouse over a linke, the mouse arrow will turn into a little hand
+- A link does not have to be text. It can be an image or any other HTML element
 
+### Syntax
+- In HTML, links are defined with the ```<a>``` tag
 
+```html
+<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+```
+### HTML Link Colors
+Default link
+- an unvisited linke is underlined and blue
+- a visited link is underlined and purple
+- an active link is underlined and red
 
+You can change the default color by using CSS
+```css
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
 
+<h2>Link Colors</h2>
 
+<p>You can change the default colors of links</p>
+
+<a href="html_images.asp" target="_blank">HTML Images</a> 
+
+</body>
+</html>
+```
+
+### The target Attribute
+- The ```target``` attribute specifies where to open the linked document
+- The ```target``` attribute can have one of the following values:
+   - ```_blank```: opens the linked document in a new window or tab
+   - ```_self```: opens the linked document in the same window/tab as it was clicked(default)
+   - ```_parent```: opens the linked document in the parent frame
+   - ```_top```: opens the linked document in the full body of the window 
+   - ``` framename``` opens the linked document in a named frame
+   
+
+### Image as link
+
+```html
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+</a>
+```
+### Link Titles
+```html
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+```
+
+### Bookmark
+- HTML bookmarks are used to allow readers to jump to specific parts of a web page
+- bookmarks can be useful if your webpage is very long
+- to make a book mark, you must first create the bookmark, and then add a link to it
+- when the link is clicked, the page will scroll to the location with the bookmark
+
+#### example
+-First create a bookmark with the ```id``` attribute
+```html
+<h2 id="C4">Chapter 4</h2>
+```
+- Then, add a link to the bookmark('Jump to Chapter 4'), from within the same page:
+```html
+<a href="#C4">Jump to Chapter 4</a>
+```
+- Or, add a link to the bookmark from another page
+```html
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+```
