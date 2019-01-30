@@ -148,8 +148,9 @@ The text inside a ```<pre>``` element is displayed in a fixed-width font(usually
 - ```<sub>``` Subscript text
 - ```<sup>``` Superscript text
 
-
-
+### HTML Quotation
+- ```<q>```
+   - Browser usually insert quotation marks around the ```<q>``` element
 
 
 
