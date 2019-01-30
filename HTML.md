@@ -119,6 +119,26 @@ The source file (src), alternation text(alt), width, and height are provided as 
 
 The text inside a ```<pre>``` element is displayed in a fixed-width font(usually Courier), and it preserves both spaces and line breaks 
 
+### HTML Style Attribute
+
+```html
+<tagname style = "property:value;">
+```
+- The property is a CSS property
+- The value is a CSS value
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
