@@ -392,3 +392,72 @@ a:active {
 ```html
 <a href="html_demo.html#C4">Jump to Chapter 4</a>
 ```
+
+### Image Maps
+- the ```<map>``` tag defines an image-map
+- An image-map is an image with clickable areas
+- the ```name``` attribute of the ```<map>``` tag is associated with the ```<img>```'s usemap attribute and creates a relationship between the image and the map
+- the ```<map>``` element contains a number of ```<area>``` tags, that define the clickable areas in the image map
+
+### Background Image
+- to add a background image on an HTML element, use the CSS property ```background-image```
+
+### ```<picture>``` element
+- the ```<picture>``` element contains a number of ```<source>``` elements, each referring to different image sources.
+- The brower can choose the image that best fits the current view and/or device
+- each ```<source>``` element have attributes describuing when their image is the most suitable
+- the brower will use the first ```<source>``` element with matching attribute values, and ignore any following ```<source>``` elements
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h2>The picture Element</h2>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+<p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+The browser looks for the first source element where the media query matches the user's current viewport width,
+and fetches the image specified in the srcset attribute.</p>
+
+<p>The img element is required as the last child tag of the picture declaration block.
+The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.
+</p>
+
+<p><strong>Note:</strong> The picture element is not supported in IE12 and earlier or Safari 9.0 and earlier.</p>
+
+</body>
+</html>
+```
+
+## HTML Table
+- An HTML table is defined with the ```<table>``` tag
+- each table row is defined with the ```<tr>``` tag
+- A table header is defined with the ```<th>``` tag
+- by default, table headings are bold and centered
+- A table data/cell is defined with the ```<td>``` tag
+- if you do not specify a border for the table, it will be dispalyed without borders
+- a border is set using the CSS ```border``` property
+```css
+table, th, td {
+  border: 1px solid black;
+}
+```
+- if you want the boerders to collapse into one border, add the CSS border-collapse preperty
+```css
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+```
+
+
+
