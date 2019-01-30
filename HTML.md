@@ -259,10 +259,26 @@ p {
 }
 ```
 
-
-
-
-
+### The id Attribute
+- To define a specific style for one special element, add an id attribute to the element:
+```html
+<p id="p01"> I am different </p>
+```
+```css
+#p01{
+color:blue
+}
+```
+### The class Attribute
+- To define a style for special types of elements, add a class attribute to the element
+```html
+<p class="error"> I am different error</p>
+```
+```css
+p.error{
+color: yellow
+}
+```
 
 
 
