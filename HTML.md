@@ -152,12 +152,26 @@ The text inside a ```<pre>``` element is displayed in a fixed-width font(usually
 - ```<q>```
    - Browser usually insert quotation marks around the ```<q>``` element
 
+- ```<blockquote>```
+   - Browsers usually indent <blockquote> elements
+   
+- ```<abbr>```
+   - defines an abbreviation or an acronym. Marking abbreviations can give useful information to browsers, translation systems and search-engines.   
 
+- ```<address>```
+   - defines contact information(author/owner) of a document or an article
+   - usually displayed in italic. Most browser will add a line break before and after the element
+   
+- ```<cite>```
+   - defines the title of a work
+   - usually display in italic
 
+- ```<bdo>```
+   - defines bi-directional override
+   - override the current text direction
 
+### HTML Comments
 
-
-
-
-
-
+```html
+<!-- This is a comment -->
+```
