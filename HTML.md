@@ -548,3 +548,51 @@ li a:hover {
 </html>
 
 ```
+
+## HTML Block and inline Elements
+
+### Block-level Elements
+- a block level element always starts on a new line and takes up the full width available
+```<address><article><aside><blockquote><canvas><dd><div><dl><dt><fieldset><figcaption><figure?<footer><form><h1>-<h6><header><hr><li><main><nav><noscript><ol><output><p><pre><section><table><tfoot><ul><video>```
+
+### Inline Elements
+- an inline element does not start on a new line and only takes up as much width as necessary
+```<a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var>```
+
+- ```<div>``` used as a container for other HTML elements
+- ```<div>``` no required attributes, but ```style```, ```class```, ```id``` are common
+- when used together with CSS, the ```<div>``` element can be used to sytle blocks of content
+- ```<span>``` used as a container for some text
+- ```<span>``` no required attributes, but ```style```, ```class```, ```id``` are common
+- when used together with CSS, the ```<span>``` element can be used to style parts on the text
+
+## class Attribute
+- class attribute is used to define equal styles for elements with the same class name
+- the class attribute can be used on any HTML element
+- the class name is case sensitive
+- HTML elements can have more than one class name, each class name must be seperated by a space
+- different tags can have the same class name and thereby share the same style
+
+## id Attribute
+- the id attribute specifies a unique id for an HTML element
+- in CSS, to select an element with a specific id, write a hash(#) character, followed by the id of the element
+- the id attribute can be used on any HTML element
+- the id value is case-sensitive
+- the id value must contain at least one character, and must not contain whitespace
+- an HTML element can only have one unique id that belongs to that single element, while a class name can be used by multiple elements
+
+## Iframes
+- an HTML iframe is defined with the ```<iframe>``` tag
+
+```html
+<iframe src="URL" ></iframe>
+```
+
+- an iframe can be used as the target frame for a link
+- the ```target``` attribute of the link must refer to the ```name``` attribute of the iframe
+
+```html
+<iframe src = "demo_iframe.htm" name="iframe_a"></iframe>
+
+<p><a href="http://khrfewia.com" target = "iframe_a"> aietjeaw</a></p>
+```
