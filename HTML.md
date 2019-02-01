@@ -460,6 +460,18 @@ table, th, td {
 ```
 
 ## HTML Lists
+- ```<ul>``` unordered list
+- ``` list-style-type``` define list item marker: ```disc; circle; square; none```
+- ```<ol>``` ordered list
+- ```type``` numbering type: ```"1"; "A"; "a"; "I"; "i"```
+- ```<li>``` define list item
+- ```<dl>``` description list
+- ```<dt>``` define description list
+- ```<dd>``` describe the term in a description list
+- list can be nested inside lists
+- list items can contain other elements
+- use css property ```float:left``` or ```display: inline``` to display a list horizontally
+
 
 ### Unordered List
 ```html
@@ -486,4 +498,53 @@ table, th, td {
   <dt>Milk</dt>
   <dd>- white cold drink</dd>
 </dl>
+```
+
+### Horizontally navigation bar example
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+</style>
+</head>
+<body>
+
+<h2>Navigation Menu</h2>
+<p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
+
 ```
