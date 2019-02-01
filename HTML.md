@@ -713,12 +713,17 @@ document.getElementById("demo").src = "picture.gif"
 - ```<var>``` element defines a variable
 - the variable could be a variable in a mathematical expression or a variable in programming context
 
-|Result|Description|EntityName|EntityNumber|
-| ------------- |:-------------:| -----:|-----:|
-|||||
 
+## HTML Form
+### ```<form>```
+- the HTML ```<form>``` element defines a form that is used to collect user input:
+- an HTML form contains form elements
+- form elements are different types of input elements, like text fields, check boxed, radio buttons, submit buttons, and more
 
-
+### ```<input>```
+- the ```<input>``` element can be displayed in serveral ways, depending on the type attribute
+|Type|Description|
+|--|--|
 
 
 
