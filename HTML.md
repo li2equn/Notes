@@ -596,3 +596,129 @@ li a:hover {
 
 <p><a href="http://khrfewia.com" target = "iframe_a"> aietjeaw</a></p>
 ```
+
+## HTML JavaScript
+### ```<script>``` 
+- ```<script>``` tag is used to define a client side script(JavaScript).
+- ```<script>``` element either contains scripting statements, or it points to an external script file through the ```src``` attribute
+- ```<noscript>``` defines an alternate content for users that do not support client-side scripts
+
+### change HTML Content
+```html
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript"
+</script>
+```
+
+### change HTML style
+```html
+<script>
+document.getElementById("demo").style.fontSize = "50px"
+</script>
+```
+### change HTML attributes
+```html
+<script>
+document.getElementById("demo").src = "picture.gif"
+</script>
+```
+
+## HTML file paths
+- a file path describes the location of a file in a web site's folder structure
+- file paths are used when linking to external files like:
+   - web pages
+   - images
+   - style sheets
+   - javascripts
+   
+### Absolute File Paths
+- an absolute file path is the full URL to an internet file
+
+### Relative File Paths
+- a relative file path points to a file relative to the current page
+
+### Best Practice
+- it is best practice to use relative file paths
+- when using relative file paths, your web pages will not be bound to your current base URL. All links will work on your own computer as well as on your current public domain and your future public domains
+
+
+
+## HTML Head
+
+- ```<head>``` element is a container for metadata(data about data) and is placed between the ```<html>``` tag and the ```<body>``` tag
+- HTML metadata is not displayed
+- metadata typically define the document title, character set, styles, links, scripts, and other meta information
+
+### ```<title>```
+- ```<title>``` element defines the title of the document, and is required in all HTML
+- defines a title in the brower tab
+- provides a title for the page when it is added to favorites
+- displayed a title for the page in search engine results
+
+
+### ```<style>```
+- the ```<style>``` element is used to define style information for a single HTML page
+
+### ```<link>```
+- ```<link> element used to link to external style sheets
+
+```html
+<link rel="stylesheet" href="mystyle.css">
+```
+
+### ```<meta>```
+- the ```<meta>``` element is used to specify which character set is used, page description, keyowrd, author, and otehr metadata
+- metadata is used by browsers(how to display content), by search engines(keywords), and other web services
+
+```html
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML, CSS, XML, JavaScript">
+<meta name="author" content="John Doe">
+<meta http-equiv="refresh" content="30">
+```
+
+### Viewport
+- the viewport is the user's visible area of a web page. It varies with the device, and will be smaller on a mobile phone than on a computer screen
+- you should include the follow ```<meta>``` viewport element  in all your web pages:
+```html
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+```
+- a ```<meta>``` viewport element gives the browser instructions on how to control the page's dimensions and scaling
+- The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+- The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+
+### ```<base>```
+
+- the ```<base>``` element specifies the base URL and base target for all relative URLs in a page
+```html
+<base href="https://www.w3schools.com/images/" target="_blank">
+```
+
+## Computer code elements
+### ```<kbd>```
+- ```<kbd>``` element represents user input, like keyboard input to voice commands
+- text surrounded by ```<kbd>``` tags is typically displayed in the browser's default monospace font
+### ```<samp>```
+- the ```<samp>``` element represent output from a program or computing system
+- text surround by ```<samp>``` tags is typically displayed in the browser's default monospace font
+
+### ```<code>```
+- ```<code>``` element defines a fragment of computer code
+- text surrounded by ```<code>``` tags is typically displayed in the browser's default monospace font
+- ```<code>``` element does not preserve extra whitespace and line-breaks
+
+### ```<var>```
+- ```<var>``` element defines a variable
+- the variable could be a variable in a mathematical expression or a variable in programming context
+
+|Result|Description|EntityName|EntityNumber|
+| ------------- |:-------------:| -----:|-----:|
+|||||
+
+
+
+
+
+
