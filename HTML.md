@@ -722,8 +722,71 @@ document.getElementById("demo").src = "picture.gif"
 
 ### ```<input>```
 - the ```<input>``` element can be displayed in serveral ways, depending on the type attribute
-|Type|Description|
-|--|--|
+| Type | Desciption |
+| --- | ---:|
+| ```<input type="text">``` | defines a one-line text input field |
+| ```<input type="radio">``` | defines a radio button(for selecting one of many choices) |
+| ```<input type="submit">``` | defines a submit button(for submitting the form) |
+
+#### the submit button
+- ```<input type="submit">``` defines a button for submitting the form data to a form-handler.
+- The form-handler is typically a server page with a script for processing input data.
+- The form-handler is specified in the form's action attribute:
+
+```html
+<form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey"><br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse"><br><br>
+  <input type="submit" value="Submit">
+</form>
+```
+### The Action Attribute
+- the ```action``` attribute defines the action to be performed when the form is submitted
+- normally, the form data is sent to a web page on the server when the user clicks on the submit button
+- if the ```action``` attribute is omitted, the action is set to the current page
+
+### The Target Attribute
+- the target attribute specifies if the submitted result will open in a new browser tab, a frame, or in the current window
+- the default value is "```_self```" which means the form will be submitted in the current window
+- to make the form result open in a new browser tab, use the value "```_blank```"
+
+### The Method Attribute
+- The method attribute specidies the HTTP method(GET or POST) to be used when submitting the form data
+
+#### GET
+- the default method when submitting form data is GET
+- When GET is used, the submitted form data will be visible in the page address field
+- appends form-data into the URL in name/value pairs
+- the length of a URL is limited
+- never use GET to send sensitive dta
+- useful for form submissions where a user wants to bookmark the result
+- GET is better for non-secure data, like query strings in Google
+
+#### POST
+- always use POST if the form data contains sensitive or personal information
+- the POST method does not display the submitted form data in the page address field
+- POST has no size limitations, and can be used to send large amounts of data
+- form submissions with POST cannot be bookmarked
+
+### The Name Attribute
+- each input field must have a name attribute to be submitted 
+- if the name attribute is omitted, the data of that input field will not be sent at all
+
+### Grouping Form Data with ```<fieldset>```
+- the ```<fieldset>``` element is used to group related data in a form
+- the ```<legend>``` element defines a caption for the ```<fieldset>``` element
+
+
+
+
+
+
+
+
+
+
 
 
 
