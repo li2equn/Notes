@@ -778,8 +778,28 @@ document.getElementById("demo").src = "picture.gif"
 - the ```<fieldset>``` element is used to group related data in a form
 - the ```<legend>``` element defines a caption for the ```<fieldset>``` element
 
+## HTML Form Elements
 
+### ```<input>```
+### ```<select>```
+- defines a drop-down list:
+- ```<option>``` elements define an option that can be selected
+- By default, the first item in the drop-down list is selected.
+- To define a pre-selected option, add the selected attribute to the option:
+- use the size attribute to specify the number of visible values
+- use the multiple attribute to allow multiple selections
 
+```html
+<select name="cars" size="3" multiple>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat" selected>Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+```
+
+### ```<textarea>```
+- defines a multi-line input field
 
 
 
