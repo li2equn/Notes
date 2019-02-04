@@ -800,10 +800,18 @@ document.getElementById("demo").src = "picture.gif"
 
 ### ```<textarea>```
 - defines a multi-line input field
+- the rows attribute specifies the visible number of lines in a text area
+- the cols attribute specifies the visible width of a text area
+- you can also define the size of the text area by using CSS style
 
+```html
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+```
 
-
-
+### ```<button>```
+- defines a clickable button
 
 
 
